@@ -207,7 +207,7 @@ with col2:
 
     st.dataframe(
         intensity_table,
-        use_container_width=True,
+        width="stretch",
         hide_index=True
     )
 
@@ -316,7 +316,7 @@ top_fires = (
 
 st.dataframe(
     top_fires,
-    use_container_width=True,
+    width="stretch",
     hide_index=True
 )
 
@@ -354,7 +354,7 @@ priority_df = (
 
 st.dataframe(
     priority_df,
-    use_container_width=True,
+    width="stretch",
     hide_index=True
 )
 
@@ -406,10 +406,6 @@ with col2:
     )
 
 st.divider()
-
-# --------------------------------------------------
-# FOOTER
-# --------------------------------------------------
 
 st.caption(
     "Wildfire Emergency Response Analytics | "
