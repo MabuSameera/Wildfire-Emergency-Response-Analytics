@@ -1,0 +1,7 @@
+venv/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+
+data/raw/*.csv
+data/processed/wildfire_analytics_2025.csv
